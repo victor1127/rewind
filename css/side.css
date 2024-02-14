@@ -68,3 +68,11 @@ code[class*="language-"],
         word-break: break-all;
         word-wrap: break-word;
 }
+
+.nav-img{
+    border-radius: 50%;
+}
+
+.bg-purple{
+    background-color: #b4b6ff;
+}
