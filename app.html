@@ -54,7 +54,37 @@
         </nav>
 
         <main class="flex-shrink-0">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 pt-5">
+                    <div class="col border-end">
+                        <h4><strong>Rewind:</strong> A coding project</h4>
+                        <p class="">
+                            There and back again. A javascrip coding exersice using arrays! 
+                            Write a program that displays a string in reverse.
+                        </p>
+                        <div class="pt-3">
+                            <h5 class="border-bottom border-1">Instructions</h5>
+                            <p class="lead">Enter a "Word" and hit Reverse Me to have it reversed.</p>
+                        </div>
+                    </div>
 
+                    <div class="col">
+                        <h6>Enter a String to Reverse</h6>
+                        <form class="row px-2">
+                            <input id="stringInput" class="form-control" placeholder="String" type="dstext" required>
+                            <button class="btn btn-danger bt-sm mt-2" style="width: 150px;" type="button" onclick="GetValue()">Reverse Me</button>
+                        </form>
+
+                        <div class="row pt-5">
+                            <div class="col">
+                                <div class="alert alert-danger" role="alert" >
+                                <p>Your reversed string: <span id="reversedInput"></span> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer class="footer mt-auto py-3 bg-light">
